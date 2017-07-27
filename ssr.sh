@@ -98,8 +98,8 @@ function adduser(){
     fi
     # Set shadowsocks config password
     echo "Please input password for shadowsocksR:"
-    read -p "(Default password: 91yun.org):" shadowsockspwd
-    [ -z "$shadowsockspwd" ] && shadowsockspwd="91yun.org"
+    read -p "(Default password: usidc.taobao.com):" shadowsockspwd
+    [ -z "$shadowsockspwd" ] && shadowsockspwd="usidc.taobao.com"
     echo
     echo "---------------------------"
     echo "password = $shadowsockspwd"
